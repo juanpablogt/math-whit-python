@@ -1,6 +1,5 @@
 from fractions  import Fraction
 
-
 def sum(a,b):
     print('Suma: {0}'.format(a+b))
 
@@ -12,7 +11,6 @@ def mul(a,b):
 
 def div(a,b):
     print('Division: {0}'.format(a/b))
-
 
 if __name__=='__main__':
     a = Fraction(input('Enter the first number: '))
@@ -28,4 +26,3 @@ if __name__=='__main__':
         mul(a,b)
     if op == 'div':
         div(a,b)
-    
