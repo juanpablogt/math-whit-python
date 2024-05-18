@@ -4,12 +4,18 @@ def tabla(a,b):
 
 if __name__=='__main__':
     while True:
-        a = input('Ingrese la tabla: ')
-        b = input('Ingrese el valor hasta donde va: ')
-        x = int(a)
-        y = int(b)
+        try:
+            a = input('Ingrese la tabla: ')
+            b = input('Ingrese el valor hasta donde va: ')
+            print('-------------------------------------')
+            x = int(a)
+            y = int(b)
 
-        tabla(x,y)
+            tabla(x,y)
+            print('-------------------------------------')
+        except ValueError:
+            print("\n-----Error, digite numeros enteros-----\n")
+            continue
 
         answer = input('Ingrese (y) si quieres salir: ')
         answer = answer.lower()
