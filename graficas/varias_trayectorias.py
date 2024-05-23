@@ -31,7 +31,10 @@ def positions(u,theta):
         grafica (x,y)
 
 if __name__=='__main__':
-    u = float(input('Ingresar la velocidad inicial: '))
-    a = float(input('Ingresar el angulo: '))
-    positions(u,a)
+    velocitys = [10, 20, 40]
+    a = 45
+    for u in velocitys:
+        positions(u,a)
+
+    plt.legend(['10','20','40'])
     plt.show()
