@@ -19,4 +19,6 @@ def median(n):
 
 if __name__=='__main__':
     list2 = [1,2,3,4,5,6,7,8,9,10]
-    print(median(list2))
+    N = len(list2)
+    M = median(list2)
+    print('el numero de datos es {0} y su mediana es {1}'.format(N,M))
