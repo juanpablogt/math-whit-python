@@ -1,4 +1,4 @@
-import matplotlib.pyplot as plt 
+import matplotlib.pyplot as plt
 def create_bar(data,labels):
     num_bars = len(data)
     positions = range (1,num_bars+1)
