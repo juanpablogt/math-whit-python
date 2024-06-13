@@ -1,6 +1,6 @@
 from sympy import FiniteSet
 import random
-
+#Probabilidad de sumar puntajes con un numero de intentos
 def probability(score,intentos):
     caras = FiniteSet(1,2,3,4,5,6)
     s = caras**intentos
