@@ -3,7 +3,6 @@ from sympy import FiniteSet
 import matplotlib.pyplot as plt
 import csv
 
-
 def leercsv(file):
 
     futball = set()
