@@ -20,4 +20,3 @@ def draw_circles(ax):
 if __name__ == '__main__':
     ax = plt.axes(xlim=(0, 6), ylim=(0, 6))
     draw_circles(ax)
-
