@@ -1,9 +1,10 @@
-from sympy import Integral,Symbol,pprint,sympify
-#simbolos para utilizar en la integral
+from sympy import Integral, Symbol, pprint
+# Define symbols for use in the integral
 x = Symbol('x')
 k = Symbol('k')
-
-c = k+x #Integral
-i = Integral(c,(x,0,5)).doit #integral definida
-
-pprint(i)
+# Define the expression for the integral
+c = k + x
+# Create the definite integral
+integral_expr = Integral(c, (x, 0, 5)).doit()
+# Pretty print the symbolic form of the integral
+pprint(integral_expr)
